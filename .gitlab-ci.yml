@@ -1,0 +1,21 @@
+image: node:latest
+
+stages:
+  - test
+  - sonar
+
+cache:
+  paths:
+  - node_modules/
+  - coverage 
+    
+test:
+  stage: test
+  script:
+    - npm install
+    - npx jest --coverage
+
+sonar:
+  stage: sonar
+  script: 
+    - npm run sonar

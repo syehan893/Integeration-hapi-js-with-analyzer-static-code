@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\Enigma backup\project-hapi\myproject\tests\test.js">
+    <testCase name="should get all user" duration="11"/>
+    <testCase name="should get user by id 1 successfully" duration="1"/>
+    <testCase name="should fail when getting user with id 5" duration="1"/>
+  </file>
+</testExecutions>
