@@ -50,8 +50,5 @@ Install all tools on your local computer and  [setup your sonaeqube](https://med
     ![sonar-project](https://i.ibb.co/GnjYncV/sonar-project.png)
     
 6) In serverUrl use a Forwarding http from ngrok.
-
-## Example Project
-[myproject](https://gitlab.com/syehan/myproject) : A simple demo project implementing integeration hapi with analyze static code.
     
     
